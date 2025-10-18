@@ -1,17 +1,14 @@
-# Smarter-VLM 
+# Code Search and Smarts
 
-This is the repository that contains source code for the [Smarter-VLM website](https://smarter-vlm.github.io/smarter-vlm/).
+This is the repository that contains source code for the [website](https://code-search-smarts.github.io/smarter-vlm/).
 
-If you find Smarter-VLM useful for your work please cite:
+If you find the research useful for your work please cite:
 ```
-@article{roberts2024smarter,
-  author        = {Denisa Roberts and Lucas Roberts},
-  title         = {Smart Vision-Language Reasoners},
-  year          = {2024},
-  eprint        = {2407.04212},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.AI},
-  url           = {https://arxiv.org/abs/2407.04212},
+@article{TODO,
+  author        = {Lucas Roberts and Denisa Roberts},
+  title         = {},
+  url           = {},
+}
 ```
 
 # Website License
