@@ -1,6 +1,6 @@
 # Code Search and Smarts
 
-This is the repository that contains source code for the [website](https://code-search-smarts.github.io/smarter-vlm/).
+This is the repository that contains source code for the [website](https://code-ai-search.github.io/code-ai-search/).
 
 If you find the research useful for your work please cite:
 ```
