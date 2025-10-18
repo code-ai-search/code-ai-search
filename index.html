@@ -6,7 +6,8 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="IR, information retrieval, LLM-as-a-judge, relevance assessment, AI, artificial intelligence, vector search, bm25, code search, tree-sitter">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Code Search Smarts</title>
+  <title>Code Search Smarts: Which Programming Language and Model Work Best With
+LLM-as-a-Judge For Code Retrieval?</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=<TODO>"></script>
@@ -82,17 +83,18 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Code Search Smarts</h1>
+          <h1 class="title is-1 publication-title">Code Search Smarts: Which Programming Language and Model Work Best With
+LLM-as-a-Judge For Code Retrieval?</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://rlucas7.github.io/">Lucas Roberts</a><sup>2</sup>,</span>
+              <a href="https://rlucas7.github.io/">Lucas Roberts</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://www.denisaroberts.me/">Denisa Roberts</a><sup>1</sup>,</span>
+              <a href="https://www.denisaroberts.me/">Denisa Roberts</a><sup>2</sup>,</span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>2</sup>Independent Researcher</span>
-            <span class="author-block"><sup>1</sup>New York University</span>
+            <span class="author-block"><sup>1</sup>Independent Researcher</span>
+            <span class="author-block"><sup>2</sup>New York University</span>
           </div>
 
           <div class="column has-text-centered">
@@ -157,7 +159,8 @@
       </video>
 	    -->
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Code Search</span>, TODO-paper-title.
+        <span class="dnerf">Code Search Smarts:</span>Which Programming Language and Model Work Best With
+LLM-as-a-Judge For Code Retrieval?
       </h2>
     </div>
   </div>
@@ -171,27 +174,6 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
             <img src="./static/images/puzzle1.png" class="" id="fullbody" alt="Puzzle 3"/>
-        </div>
-        <div class="item item-chair-tp">
-          <img src="./static/images/puzzle2.png" class="" id="chair-tp" alt="example SMART data problem."/>
-        </div>
-        <div class="item item-shiba">
-          <img src="./static/images/puzzle3.png" class="" id="shiba" alt="example SMART data problem."/>
-        </div>
-        <div class="item item-fullbody">
-          <img src="./static/images/puzzle4.png" class="" id="fullbody" alt="Puzzle 3"/>
-	</div>
-        <div class="item item-blueshirt">
-          <img src="./static/images/puzzle5.png" class="" id="blueshirt" alt="Puzzle 4"/>
-        </div>
-        <div class="item item-mask">
-          <img src="./static/images/puzzle6.png" class="" id="mask" alt="Puzzle 5"/>
-        </div>
-        <div class="item item-coffee">
-          <img src="./static/images/puzzle7.png" class="" id="coffee" alt="Puzzle 6"/>
-        </div>
-        <div class="item item-toby">
-          <img src="./static/images/puzzle8.png" class="" id="toby" alt="Puzzle 7"/>
         </div>
       </div>
     </div>
@@ -207,11 +189,40 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-		TODO
-          <p>
+		Code search is an important information retrieval application. Bene-
+		fits of better code search include faster new developer on-boarding,
+		reduced software maintenance, and ease of understanding for large
+		repositories. Despite improvements in search algorithms and search
+		benchmarks, the domain of code search has lagged behind. One
+		reason is the high cost of human annotation for code queries and
+		answers. While humans may annotate search results in general text
+		QA systems, code annotations require specialized knowledge of a
+		programming language (PL), as well as domain specific software
+		engineering knowledge.
           </p>
-		TODO
           <p>
+		In this work we study the use of Large
+		Language Models (LLMs) to retrieve code at the level of functions
+		and to generate annotations for code search results. We compare
+		the impact of the retriever representation (sparse vs. semantic),
+		programming language, and LLM by comparing human annota-
+		tions across several popular languages (C, Java, Javascript, Go, and
+		Python). We focus on repositories that implement common data
+		structures likely to be implemented in any PLs. For the same hu-
+		man annotations, we compare several LLM-as-a-Judge models to
+		evaluate programming language and other affinities between LLMs.
+          </p>
+          <p>
+		We find that the chosen retriever and PL exhibit affinities that can
+		be leveraged to improve alignment of human and AI relevance
+		determinations, with significant performance implications. We also
+		find differences in representation (sparse vs. semantic) across PLs
+		that impact alignment of human and AI relevance determinations.
+		We propose using transpilers to bootstrap scalable code search
+		benchmark datasets in other PLs and in a case study demonstrate
+		that human-AI relevance agreement rates largely match the (worst
+		case) human-human agreement under study. The application code
+		used in this work is available a
           </p>
         </div>
       </div>
@@ -245,9 +256,9 @@
         <div class="content">
           <h2 class="title is-3">Study Results</h2>
           <p>
-		TODO
+		TODO-write-in
           </p>
-	  <p> TODO
+	  <p> TODO-write-in
 	  </p>
         </div>
       </div>
@@ -257,10 +268,7 @@
 <section class="section">
   <div class="container is-max-desktop">
      <div class="publication-video">
-	  <iframe src="https://www.comet.com/droberts308/multimodalai/view/QF0ah3akqYB6IiNuyVXuRchlh/panels"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	  <div class="publication-video">
-       </div>
+     </div>
    </div>
   </div>
 </section>
